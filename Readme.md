@@ -61,6 +61,18 @@ Confirmación de que un endpoint protegido rechaza correctamente una petición s
 
 ---
 
+## Pruebas de la API probadas con Bruno VPS
+![Crear estudiante](screenshots/vps.png)
+![Crear estudiante](screenshots/vps(1).png)
+![Crear estudiante](screenshots/vps(3).png)
+![Crear estudiante](screenshots/vps(4).png)
+![Crear estudiante](screenshots/vps(5).png)
+![Crear estudiante](screenshots/vps(6).png)
+![Crear estudiante](screenshots/vps(7).png)
+
+
+---
+
 ## Documentación técnica
 
 ### Autenticación y seguridad
