@@ -162,6 +162,11 @@ ERAGact4_t4/
 - `http://67.207.87.232:8088/api/auth/login`
 - `http://67.207.87.232:8088/api/v1/students`
 
+- Todas las rutas bajo /api/v1/students/** requieren un token JWT válido en la cabecera Authorization: Bearer <TOKEN>.
+- `POST` `http://67.207.87.232:8088/api/auth/login` (Obtener Token)
+- `GET` `http://67.207.87.232:8088/api/v1/students` (Endpoint Protegido con JWT)
+
+
 🔗 **Colección de Bruno:** incluida en la carpeta `bruno/` de este repositorio.
 
 ---
