@@ -1,0 +1,20 @@
+info:
+  name: 08 - Eliminar (1)
+  type: http
+  seq: 16
+
+http:
+  method: DELETE
+  url: http://67.207.87.232:8088/api/v1/students/23
+  body:
+    type: json
+    data: ""
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbnJpcXVleiIsImlhdCI6MTc4NDU5NDM4MywiZXhwIjoxNzg0NjgwNzgzfQ.Wo62SDpJ4XxEOfsyHxF-9yDTa8BeRdaXcvFO68TqTgc
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

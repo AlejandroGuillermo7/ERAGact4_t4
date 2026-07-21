@@ -1,0 +1,25 @@
+info:
+  name: 07 - Actualizar
+  type: http
+  seq: 10
+
+http:
+  method: PUT
+  url: http://localhost:8088/api/v1/students/1
+  body:
+    type: json
+    data: |-
+      {
+        "firstName": "Juan Carlos",
+        "lastName": "Pérez Gómez",
+        "email": "juan.perez@example.com"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbnJpcXVleiIsImlhdCI6MTc4NDU4MzIxMSwiZXhwIjoxNzg0NjY5NjExfQ.hphKFKCEy4qdaD_8TIWepwHhSc4IDcG0OH_VvftNU5s
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

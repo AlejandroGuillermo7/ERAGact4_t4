@@ -1,0 +1,25 @@
+info:
+  name: 04 - Crear Estudiante (1)
+  type: http
+  seq: 12
+
+http:
+  method: POST
+  url: http://localhost:8088/api/v1/students
+  body:
+    type: json
+    data: |-
+      {
+        "firstName": "JuaAn",
+        "lastName": "Pérez",
+        "email": "juan@example.com"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbnJpcXVleiIsImlhdCI6MTc4NDU4MzIxMSwiZXhwIjoxNzg0NjY5NjExfQ.hphKFKCEy4qdaD_8TIWepwHhSc4IDcG0OH_VvftNU5s
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
